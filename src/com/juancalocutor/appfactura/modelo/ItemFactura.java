@@ -35,7 +35,5 @@ public class ItemFactura {
         return producto.toString() + "\t" + cantidad + "\t" + calcularImporte();
     }
 
-    
-
     // ****************************
 }

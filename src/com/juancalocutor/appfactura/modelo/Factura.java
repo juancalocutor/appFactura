@@ -99,7 +99,5 @@ public class Factura {
         return generarDetalle();
     }
 
-    
-
     // *******************************************
 }

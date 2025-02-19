@@ -6,7 +6,7 @@ public class Producto {
     private String nombreProducto;
     private double precio;
     private static int ultimoCodigo;
-    
+
     public Producto() {
         this.codigo = ++ultimoCodigo;
     }
@@ -35,8 +35,6 @@ public class Producto {
     public String toString() {
         return codigo + "\t" + nombreProducto + "\t" + precio;
     }
-
-    
 
     // ********************************************
 }
