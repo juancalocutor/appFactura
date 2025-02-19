@@ -32,7 +32,7 @@ public class ItemFactura {
 
     @Override
     public String toString() {
-        return producto + "\t" + cantidad + "\t" + calcularImporte();
+        return producto.toString() + "\t" + cantidad + "\t" + calcularImporte();
     }
 
     
